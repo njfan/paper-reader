@@ -9,7 +9,7 @@ Notion 为可选功能。配置后，skill 会在阅读前查重，并将笔记�
 在 Codex 中调用 `$skill-installer`，并把本仓库的 GitHub 链接发给 agent：
 
 ```text
-$skill-installer 请安装这个 GitHub skill：https://github.com/njfan/paper-reader。SKILL.md 位于仓库根目录，安装名使用 paper-reader。
+$skill-installer 请安装这个 GitHub skill：https://github.com/njfan/paper-reader。
 ```
 
 agent 会从 GitHub 下载并安装到 Codex skills 目录。安装完成后，从下一轮对话开始使用：
