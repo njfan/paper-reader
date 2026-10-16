@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文阅读"
+  short_description: "提炼论文核心点与相关研究，可选保存至 Notion"
+  default_prompt: "使用 $paper-reader 阅读我提供的论文链接并输出结构化笔记。"
